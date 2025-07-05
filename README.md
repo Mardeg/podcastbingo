@@ -203,6 +203,7 @@ if (
 
 There are three SVG images, the WORKING CLOCKFACE (an extra analog source of randomness), the BOOKMARK one and the BINGO game ending one, and all are coded inline within the html file.
 [![Bookmark](https://web.archive.org/web/20210924101550id_/http://svgur.com/i/aUr.svg)](https://podcastbingo.pages.dev)
+
 One thing of note is that **textLength** and **lengthAdjust** are attributes used to ensure "BOOKMARK YOUR POINT IN THIS GAME", which is actual text, is constrained inside the graphic because there's no telling what default **sans-serif** fonts with varying widths people have installed.
 
 ```xml
