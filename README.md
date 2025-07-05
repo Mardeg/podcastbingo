@@ -256,7 +256,7 @@ Fully functional with no errors in:
 
 ### Webkit-based
 - Safari: Functional, no audio.
-- Falkon: "New Card" button is non-functional.
+- Falkon: "New Card" button is non-functional - "Uncaught TypeError: p.angle.toFixed(...).at is not a function"
 
 ### Other
 - Servo: Non-functional on Linux, squares not populated ([Issue #34604](https://github.com/servo/servo/issues/34604)), inline SVG images not rendered.
