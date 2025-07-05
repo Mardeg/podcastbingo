@@ -243,6 +243,7 @@ Fully functional with no errors in:
 - Firefox
 - Tor Browser
 - SeaMonkey
+- Zen
 
 ### Blink-based
 Fully functional with no errors in:
