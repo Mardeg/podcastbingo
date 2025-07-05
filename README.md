@@ -6,6 +6,7 @@
 
 An example of generating random playable Bingo cards for when listening to a podcast episode.
 [![Screenshot](https://web.archive.org/web/20210426064422id_/https://i.kym-cdn.com/photos/images/original/002/084/129/537.png)](https://podcastbingo.pages.dev)
+
 Podcast Bingo is a variant of [Buzzword Bingo](https://en.wikipedia.org/wiki/Buzzword_bingo) AKA Bullshit Bingo, where each square is populated either with a phrase one of the hosts commonly says or known idiosyncracy of theirs.
 
 ## How to play
