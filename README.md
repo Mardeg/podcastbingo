@@ -259,4 +259,4 @@ Fully functional with no errors in:
 - Falkon: "New Card" button is non-functional.
 
 ### Other
-- Servo: Non-functional on Linux, squares not populated ([Issue #34604](https://github.com/servo/servo/issues/34604)).
+- Servo: Non-functional on Linux, squares not populated ([Issue #34604](https://github.com/servo/servo/issues/34604)), inline SVG images not rendered.
