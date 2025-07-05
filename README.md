@@ -260,3 +260,4 @@ Fully functional with no errors in:
 
 ### Other
 - Servo: Non-functional on Linux, squares not populated ([Issue #34604](https://github.com/servo/servo/issues/34604)), inline SVG images not rendered.
+- Flow: Non-functional on Raspberry Pi, squares not populated - "TypeError: document.getElementById(...).transform.animVal is undefined"
