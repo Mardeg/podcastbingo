@@ -235,3 +235,24 @@ fieldset:disabled + #svg2 {
 ## License
 
 Dual-licensed as [Public Domain](https://creativecommons.org/publicdomain/zero/1.0/) and, where that cannot be abided, under the [Academic Free License version 3.0](https://github.com/Mardeg/podcastbingo/blob/main/LICENSE.md)
+
+## Browsers tested
+
+### Gecko-based
+Fully functional with no errors in:
+- Firefox
+- Tor Browser
+
+### Blink-based
+Fully functional with no errors in:
+- Chrome
+- Ungoogled Chromium
+- SRWare Iron
+- Edge
+
+### Webkit-based
+- Safari: Functional, no audio.
+- Falkon: "New Card" button is non-functional.
+
+### Other
+- Servo: Non-functional on Linux, squares not populated ([Issue #34604](https://github.com/servo/servo/issues/34604)).
