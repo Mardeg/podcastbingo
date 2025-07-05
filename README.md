@@ -1,11 +1,11 @@
 # Podcast Bingo
 
-[Live demo.](https://podcastbingo.glitch.me)
+[Live demo.](https://podcastbingo.pages.dev)
 
 ## Description
 
 An example of generating random playable Bingo cards for when listening to a podcast episode.
-[![Screenshot](https://web.archive.org/web/20210426064422id_/https://i.kym-cdn.com/photos/images/original/002/084/129/537.png)](https://podcastbingo.glitch.me)
+[![Screenshot](https://web.archive.org/web/20210426064422id_/https://i.kym-cdn.com/photos/images/original/002/084/129/537.png)](https://podcastbingo.pages.dev)
 Podcast Bingo is a variant of [Buzzword Bingo](https://en.wikipedia.org/wiki/Buzzword_bingo) AKA Bullshit Bingo, where each square is populated either with a phrase one of the hosts commonly says or known idiosyncracy of theirs.
 
 ## How to play
@@ -201,7 +201,7 @@ if (
 ### SVG
 
 There are three SVG images, the WORKING CLOCKFACE (an extra analog source of randomness), the BOOKMARK one and the BINGO game ending one, and all are coded inline within the html file.
-[![Bookmark](https://web.archive.org/web/20210924101550id_/http://svgur.com/i/aUr.svg)](https://podcastbingo.glitch.me)
+[![Bookmark](https://web.archive.org/web/20210924101550id_/http://svgur.com/i/aUr.svg)](https://podcastbingo.pages.dev)
 One thing of note is that **textLength** and **lengthAdjust** are attributes used to ensure "BOOKMARK YOUR POINT IN THIS GAME", which is actual text, is constrained inside the graphic because there's no telling what default **sans-serif** fonts with varying widths people have installed.
 
 ```xml
@@ -213,7 +213,7 @@ One thing of note is that **textLength** and **lengthAdjust** are attributes use
 	textLength="355" lengthAdjust="spacingAndGlyphs">IN YOUR GAME</text>
 ```
 
-[![Bingo](https://web.archive.org/web/20210924101448id_/http://svgur.com/i/aWC.svg)](https://podcastbingo.glitch.me)
+[![Bingo](https://web.archive.org/web/20210924101448id_/http://svgur.com/i/aWC.svg)](https://podcastbingo.pages.dev)
 Also, the BINGO svg code being after the bingo card but moved over the top of it designed to fade into visibility once BINGO is reached, is in a higher layer therefore **pointer-events:none** is needed for it in the style.css file to allow clicks/taps to get through it to the bingo card:
 
 ```CSS
@@ -234,4 +234,4 @@ fieldset:disabled + #svg2 {
 
 ## License
 
-Dual-licensed as [Public Domain](https://creativecommons.org/publicdomain/zero/1.0/) and, where that cannot be abided, under the [Academic Free License version 3.0](https://glitch.com/embed/#!/podcastbingo?path=LICENSE.md%3A1%3A0)
+Dual-licensed as [Public Domain](https://creativecommons.org/publicdomain/zero/1.0/) and, where that cannot be abided, under the [Academic Free License version 3.0](https://github.com/Mardeg/podcastbingo/blob/main/LICENSE.md)
