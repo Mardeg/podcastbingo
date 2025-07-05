@@ -242,6 +242,7 @@ Dual-licensed as [Public Domain](https://creativecommons.org/publicdomain/zero/1
 Fully functional with no errors in:
 - Firefox
 - Tor Browser
+- SeaMonkey
 
 ### Blink-based
 Fully functional with no errors in:
