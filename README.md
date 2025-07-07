@@ -256,6 +256,7 @@ Fully functional with no errors in:
 
 ### Webkit-based
 - Safari: Functional, no audio.
+- QT Ultralight: Functional, no audio, no text inside SVG bookmark image.
 - Falkon: "New Card" button is non-functional - "Uncaught TypeError: p.angle.toFixed(...).at is not a function"
 
 ### Other
