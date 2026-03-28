@@ -3,7 +3,7 @@
 <style>
 /* <![CDATA[ */
 svg{width:100vw;height:100vh;color-scheme: light dark;background-color:light-dark(#AAA,#555)}
-circle{fill: light-dark(#E6F1DD,#5B6D2D)}
+circle{fill: url(#animrot)}
 /* ]]> */
 </style>
 	<title>SVG analog clock</title>
@@ -59,6 +59,25 @@ circle{fill: light-dark(#E6F1DD,#5B6D2D)}
 			<stop offset="0" stop-color="#FFFFFF" stop-opacity="0.8" />
 			<stop offset="1" stop-color="#000000" />
 		</radialGradient>
+<linearGradient id='animrot' gradientUnits='objectBoundingBox' x1='0' y1='0' x2='1' y2='1'>
+   <stop offset='0' stop-color='red'>
+      <animate attributeName="stop-color"
+         values="red;purple;blue;green;yellow;orange;red;" dur="20s" repeatCount="indefinite">
+      </animate>
+   </stop>
+   <stop offset='.5' stop-color='purple'>
+      <animate attributeName="stop-color"
+         values="purple;blue;green;yellow;orange;red;purple;" dur="20s" repeatCount="indefinite">
+      </animate>
+   </stop>
+   <stop offset='1' stop-color='blue'>
+      <animate attributeName="stop-color"
+         values="blue;green;yellow;orange;red;purple;blue;" dur="20s" repeatCount="indefinite">
+      </animate>
+   </stop>
+   <animateTransform attributeName="gradientTransform" type="rotate" from="0 .5 .5" to="360 .5 .5"
+      dur="20s" repeatCount="indefinite" />
+</linearGradient>
 		<!-- JavaScript for setting the clockhands on load. -->
 		<script type="text/javascript">
 			<![CDATA[
