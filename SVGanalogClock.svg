@@ -3,7 +3,7 @@
 <style>
 /* <![CDATA[ */
 svg{width:100vw;height:100vh;color-scheme: light dark;background-color:light-dark(#AAA,#555)}
-circle{fill: light-dark(#E6F1DD,#8A6339)}
+circle{fill: light-dark(#E6F1DD,#5B6D2D)}
 /* ]]> */
 </style>
 	<title>SVG analog clock</title>
