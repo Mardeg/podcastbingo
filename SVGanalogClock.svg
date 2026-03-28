@@ -3,7 +3,6 @@
 <style>
 /* <![CDATA[ */
 svg{width:100vw;height:100vh;color-scheme: light dark;background-color:light-dark(#AAA,#555)}
-circle{fill: url(#animrot)}
 /* ]]> */
 </style>
 	<title>SVG analog clock</title>
@@ -110,7 +109,7 @@ circle{fill: url(#animrot)}
 			//]]>
 		</script>
 	</defs>
-	<circle cx="256" cy="256" r="215.04" />
+	<circle fill="url(#animrot)" cx="256" cy="256" r="215.04" />
 	<path filter="url(#f3)" d="M256,10.24C120.271,10.24,10.24,120.271,10.24,256c0,135.729,110.031,245.76,245.76,245.76
 		c135.729,0,245.76-110.031,245.76-245.76C501.76,120.271,391.729,10.24,256,10.24z M256,471.04
 		c-118.763,0-215.04-96.276-215.04-215.04c0-118.763,96.277-215.04,215.04-215.04c118.764,0,215.04,96.277,215.04,215.04
